@@ -1,5 +1,5 @@
 .col {
-    background-color: #343a40!important;
+
     border-style: solid;
     border-width: 2px;
     border-radius: 5px;
@@ -31,11 +31,6 @@ body {
     padding-top: 80px;
 }
 
-.row {
-    padding-bottom: 20px;
-    background-color: lightgray;
-}
-
 .top {
     padding-top: 50px;
 }
@@ -49,31 +44,78 @@ body {
     .parallax {
         background-attachment: scroll;
     }
+    .parallax1 {
+        /* The image used */
+        background-image: url("https://static.pexels.com/photos/59519/pexels-photo-59519.jpeg");
+        /* Set a specific height */
+        height: 70vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax2 {
+        /* The image used */
+        background-image: url("https://static.pexels.com/photos/248771/pexels-photo-248771.jpeg");
+        /* Set a specific height */
+        height: 70vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .pg1 {
+        background-color: #4e555b;
+    }
 }
 
-.parallax1 {
-    /* The image used */
-    background-image: url("https://static.pexels.com/photos/59519/pexels-photo-59519.jpeg");
-    /* Set a specific height */
-    height: 450px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+@media only screen and (min-device-width: 1366px) {
+    .pg1 {
+        position: absolute;
+        bottom: 0vh;
+        background-color: #000000;
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    .pg2 {
+        width: 100%;
+        position: absolute;
+        bottom: -100vh;
+        background-color: #000000;
+        background-color: rgba(0,0,0,0.7);
+    }
+    .parallax1 {
+        /* The image used */
+        background-image: url("https://static.pexels.com/photos/59519/pexels-photo-59519.jpeg");
+        /* Set a specific height */
+        height: 100vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax2 {
+        /* The image used */
+        background-image: url("https://static.pexels.com/photos/248771/pexels-photo-248771.jpeg");
+        /* Set a specific height */
+        height: 100vh;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 }
 
-.parallax2 {
-    /* The image used */
-    background-image: url("https://static.pexels.com/photos/248771/pexels-photo-248771.jpeg");
-    /* Set a specific height */
-    height: 450px;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
+
+
 
 
 
