@@ -4,91 +4,153 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="index.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
 </head>
-<body>
+<body id="page-top">
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-
-    <img class="navbar-brand" src="http://travelfunda.co.in/images/travelfunda.png" />
-
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a class="nav-link" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">WHO ARE WE</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">WHAT WE DO</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">DESTINATION</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">TESTIMONIALS</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT US</a>
-        </li>
-    </ul>
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <img class="navbar-brand" src="http://travelfunda.co.in/images/travelfunda.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#page-top">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  js-scroll-trigger" href="#whoarewe">WHO ARE WE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  js-scroll-trigger" href="#whatwedo">WHAT WE DO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#destination">DESTINATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#testimonials">TESTIMONIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contactus">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </nav>
+<div class="parallax1"></div>
 
-<img class="poster center" src="http://travelfunda.co.in/images/image2.jpg" />
+    <div class="row" style="width: 85%; margin: auto; margin-top: 2%">
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Preparing customized itineraries ideal for you
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/airoplan.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Selecting the proper means for booking.            </p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/dollar.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Optimization of costs            </p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/mobile.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Guiding you throughout your tour.
 
-<div class="row" style="width: 90%; margin: auto; margin-top: 2%">
-    <div class="col">
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/lugage.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Help you make the best preparations for a hassle free tour.            </p>
+            </div>
+        </div><div class="col">
+        <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/globe.png">
+        <div class="card-body" style="padding: 10px">
+            <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                Share with you our actual experiences        </p>
+        </div>
+    </div>
+    </div>
+<section id="whatwedo">
+    <div class="parallax2"></div>
+    <div class="container">
+        <p class="top" style="color: aliceblue">
+            Holiday package? Travel package? We prefer to call it a PLAN. A TRAVEL PLAN which echoes your travel ideology, your personality and your expectations from a holiday or a trip.And hence we call it an ITINERARY DESIGNED for YOU. From flight bookings, hotel bookings, sightseeing plans, flight selection, train travel to the smallest details like the seat selection in an aircraft is taken care of when an itinerary is designed for you.
+        </p>
+    </div>
+    <div class="row" style="width: 90%; margin: auto; margin-top: 2%">
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Preparing customized itineraries ideal for you
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Selecting the proper means for booking.            </p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Optimization of costs            </p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Guiding you throughout your tour.
+
+                </p>
+            </div>
+        </div>
+        <div class="col">
+            <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
+            <div class="card-body" style="padding: 10px">
+                <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
+                    Help you make the best preparations for a hassle free tour.            </p>
+            </div>
+        </div>
+        <div class="col">
         <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
         <div class="card-body" style="padding: 10px">
             <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
-                Preparing customized itineraries ideal for you
-            </p>
+                Share with you our actual experiences        </p>
         </div>
     </div>
-    <div class="col">
-        <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
-        <div class="card-body" style="padding: 10px">
-            <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
-                Selecting the proper means for booking.            </p>
-        </div>
     </div>
-    <div class="col">
-        <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
-        <div class="card-body" style="padding: 10px">
-            <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
-                Optimization of costs            </p>
-        </div>
-    </div>
-    <div class="col">
-        <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
-        <div class="card-body" style="padding: 10px">
-            <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
-                Guiding you throughout your tour.
-
-            </p>
-        </div>
-    </div>
-    <div class="col">
-        <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
-        <div class="card-body" style="padding: 10px">
-            <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
-                Help you make the best preparations for a hassle free tour.            </p>
-        </div>
-    </div><div class="col">
-    <img class="card-img-top card-pos" style="height: 100px; width: auto" src="http://travelfunda.co.in/images/afiltower.png">
-    <div class="card-body" style="padding: 10px">
-        <p style="font-size: 0.8em; color: white; margin-top: 0px" class="card-text">
-            Share with you our actual experiences        </p>
-    </div>
-</div>
+</section>
 
 
-</div>
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+<script src="index.js"></script>
 </body>
 </html>
