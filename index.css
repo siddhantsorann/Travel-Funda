@@ -14,10 +14,17 @@ p{
 }
 
 .car-cap{
+    position: absolute;
     color: white;
     background-color: #000000;
     background-color: rgba(0,0,0,0.7);
     border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0.5%;
+    margin-top: 50px;
+
 }
 
 
@@ -252,7 +259,7 @@ section {
     .pg3 {
         width: 100%;
         position: absolute;
-        bottom: -200vh;
+        bottom: -300vh;
         background-color: #000000;
         background-color: rgba(0,0,0,0.7);
     }
