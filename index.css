@@ -90,42 +90,35 @@ body {
 }
 
 .img1{
-    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/174181.jpg");
+    background-image: url("Images/norway-720.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img2{
-    background-image: url("https://i.pinimg.com/originals/2d/92/db/2d92db058f014a69f229f0ecb7051556.jpg");
+    background-image: url("Images/portugal-720.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img3{
-    background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/170374.jpg");
+    background-image: url("Images/maldives-720.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img4{
-    background-image: url("http://s1.1zoom.me/big0/951/New_Zealand_Roads_451893.jpg");
+    background-image: url("Images/nz-720.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .img5{
-    background-image: url("https://lutfifiieanie.files.wordpress.com/2015/01/wallpaper-ancient-uchisar-cappadocia-turkey.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.img6{
-    background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2016/01/Switzerland-wallpaper-14.jpg");
+    background-image: url("Images/switzerland-720.jpg");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -167,7 +160,7 @@ section {
 @media only screen and (max-device-width: 1000px) {
     .parallax1 {
         /* The image used */
-        background-image: url("https://static.pexels.com/photos/59519/pexels-photo-59519.jpeg");
+        background-image: url("Images/home-720.jpg");
         /* Set a specific height */
         height: 70vh;
         /* Create the parallax scrolling effect */
@@ -179,7 +172,7 @@ section {
 
     .parallax2 {
         /* The image used */
-        background-image: url("https://static.pexels.com/photos/297755/pexels-photo-297755.jpeg");
+        background-image: url("Images/whatwedo-720.jpg");
         /* Set a specific height */
         height: 70vh;
         /* Create the parallax scrolling effect */
@@ -191,7 +184,7 @@ section {
 
     .parallax3 {
         /* The image used */
-        background-image: url("https://static.pexels.com/photos/248771/pexels-photo-248771.jpeg");
+        background-image: url("Images/whoarewe-720.jpg");
         /* Set a specific height */
         height: 70vh;
         /* Create the parallax scrolling effect */
@@ -266,7 +259,7 @@ section {
 
     .parallax1 {
         /* The image used */
-        background-image: url("https://static.pexels.com/photos/59519/pexels-photo-59519.jpeg");
+        background-image: url("Images/home-720.jpg");
         /* Set a specific height */
         height: 100vh;
         /* Create the parallax scrolling effect */
@@ -278,7 +271,7 @@ section {
 
     .parallax2 {
         /* The image used */
-        background-image: url("https://static.pexels.com/photos/297755/pexels-photo-297755.jpeg");
+        background-image: url("Images/whatwedo-720.jpg");
         /* Set a specific height */
         height: 100vh;
         /* Create the parallax scrolling effect */
@@ -290,7 +283,7 @@ section {
 
     .parallax3 {
         /* The image used */
-        background-image: url("https://static.pexels.com/photos/248771/pexels-photo-248771.jpeg");
+        background-image: url("Images/whoarewe-720.jpg");
         /* Set a specific height */
         height: 100vh;
         /* Create the parallax scrolling effect */
