@@ -5,6 +5,18 @@
     border-color: darkcyan;
 }
 
+.navbar {
+    height: 50px;
+}
+
+a.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand {
+    height: 50px;
+}
+
 p{
     color: aliceblue;
 }
