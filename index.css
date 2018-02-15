@@ -5,18 +5,6 @@
     border-color: darkcyan;
 }
 
-.navbar {
-    height: 50px;
-}
-
-a.navbar-brand {
-    padding: 0;
-}
-
-.navbar-brand {
-    height: 50px;
-}
-
 p{
     color: aliceblue;
 }
@@ -156,6 +144,18 @@ section {
 }
 
 @media only screen and (min-device-width: 1000px) {
+
+    .navbar {
+        height: 50px;
+    }
+
+    a.navbar-brand {
+        padding: 0;
+    }
+
+    .navbar-brand {
+        height: 50px;
+    }
 
     .pg3 .details {
         float: left;
