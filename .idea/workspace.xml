@@ -2,38 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e0792cb-1eeb-452d-9470-40ebcaef0a75" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Images/afiltower.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/afiltowerbig.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/airoplan.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/airoplanbig.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/dollar.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/dollarbig.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/fb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/globe.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/globebig.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/home-480.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/home-720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/lugage.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/lugagebig.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/maldives-360.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/maldives-720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/mobile.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/mobilebig.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/norway-360.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/norway-720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/nz-360.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/nz-720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/portugal-360.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/portugal-720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/switzerland-360.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/switzerland-720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/travelfunda.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/tweet.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/whatwedo-480.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/whatwedo-720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/whoarewe-360.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Images/whoarewe-720.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index.css" afterPath="$PROJECT_DIR$/index.css" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -48,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="170" column="41" lean-forward="false" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+            <state relative-caret-position="307">
+              <caret line="288" column="20" lean-forward="true" selection-start-line="288" selection-start-column="20" selection-end-line="288" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -68,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3650">
@@ -120,8 +88,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/vendor/pace.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -199,12 +167,12 @@
       <option name="presentableId" value="Default" />
       <updated>1518672831393</updated>
       <workItem from="1518672832772" duration="13884000" />
-      <workItem from="1518707237702" duration="7426000" />
+      <workItem from="1518707237702" duration="7872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21310000" />
+    <option name="totallyTimeSpent" value="21756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -297,18 +265,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="170" column="41" lean-forward="false" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3650">
           <caret line="285" column="38" lean-forward="false" selection-start-line="285" selection-start-column="38" selection-end-line="285" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="288" column="20" lean-forward="true" selection-start-line="288" selection-start-column="20" selection-end-line="288" selection-end-column="20" />
           <folding />
         </state>
       </provider>
