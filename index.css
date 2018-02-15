@@ -6,7 +6,7 @@
 }
 
 #testimonials {
-    height: 100vh;
+    height: 70vh;
 }
 
 p{
@@ -34,7 +34,7 @@ p{
 .reviews iframe{
     margin-top: -30vh;
     float: right;
-    height: 130vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -261,7 +261,7 @@ section {
     .pg3 {
         width: 100%;
         position: absolute;
-        bottom: -400vh;
+        bottom: -370vh;
         background-color: #000000;
         background-color: rgba(0,0,0,0.7);
     }
