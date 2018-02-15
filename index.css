@@ -5,6 +5,10 @@
     border-color: darkcyan;
 }
 
+#testimonials {
+    height: 100vh;
+}
+
 p{
     color: aliceblue;
 }
@@ -27,7 +31,11 @@ p{
 
 }
 
-
+.reviews iframe{
+    float: right;
+    height: 100vh;
+    width: 60vw;
+}
 
 .carousel img{
 
@@ -252,7 +260,7 @@ section {
     .pg3 {
         width: 100%;
         position: absolute;
-        bottom: -300vh;
+        bottom: -400vh;
         background-color: #000000;
         background-color: rgba(0,0,0,0.7);
     }
